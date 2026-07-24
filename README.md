@@ -10,12 +10,12 @@ https://wxavier91.github.io/hidrografia-rmsp/tiles/{0}/{1}/{2}.png
 
 ## Fonte dos dados
 
-Dados hidrográficos obtidos a partir da base do CEM/USP.
-https://centrodametropole.fflch.usp.br/pt-br/download-de-dados
+Dados hidrográficos obtidos a partir da [base do CEM/USP](https://centrodametropole.fflch.usp.br/pt-br/download-de-dados).
+
 Tipos = cartografico
 Temas = meio ambiente
 Arquivo = Cursos d'água da Região Metropolitana de São Paulo 2025
-Link completo: https://centrodametropole.fflch.usp.br/pt-br/download-de-dados?f%5B0%5D=facets_temas%3Ameio%20ambiente&f%5B1%5D=facets_tipos%3Acartografico
+[Link completo](https://centrodametropole.fflch.usp.br/pt-br/download-de-dados?f%5B0%5D=facets_temas%3Ameio%20ambiente&f%5B1%5D=facets_tipos%3Acartografico)
 
 ## Características
 
@@ -28,12 +28,10 @@ Link completo: https://centrodametropole.fflch.usp.br/pt-br/download-de-dados?f%
 - Rótulos adaptados por nível de zoom.
 - Estilo otimizado para visualização em smartphones.
 
-## Projeto QGIS
+## Estrutura do projeto
 
-A pasta `qgis` contém:
-- arquivo do projeto;
-- estilos;
-- dados utilizados na geração dos tiles.
+- `qgis/` → projeto, estilos e dados usados para gerar o mapa
+- `tiles/` → imagens utilizadas pelo OsmAnd ou outros aplicativos
 
 ## Última atualização
 
